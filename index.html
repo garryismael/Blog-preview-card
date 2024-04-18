@@ -23,12 +23,12 @@
   <body>
     <section class="container">
       <div class="card">
-        <img src="./assets/images/illustration-article.svg" />
+        <img src="./assets/images/illustration-article.svg" alt="illustration"/>
         <div class="info">
           <button class="body-s">Learning</button>
-          <p class="date body-s-regular">Published 21 Dec 2023</p>
-          <h1 class="heading">HTML & CSS foundations</h1>
-          <p class="text">
+          <p class="date body-s-regular" role="createdAt">Published 21 Dec 2023</p>
+          <h1 class="heading" role="cardTitle">HTML & CSS foundations</h1>
+          <p class="text" role="cardText">
             These languages are the backbone of every website, defining
             structure, content, and presentation.
           </p>
@@ -40,11 +40,11 @@
             width="32"
             height="32"
           />
-          <p class="body-s">Greg Hooper</p>
+          <p class="body-s" class="username">Greg Hooper</p>
         </div>
       </div>
     </section>
-    <div class="attribution">
+    <div class="attribution" role="attribution">
       Challenge by
       <a
         href="https://www.frontendmentor.io?ref=challenge"
